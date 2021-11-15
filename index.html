@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>ARNIAM</title>
+  </head>
+  <body>
+    <div class="col-md-12">
+      <!-- header section area -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img class="logo" src="./assets/images/logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="d-flex col-md-6">
+              <input
+                class="form-control me-2 search"
+                type="search"
+                placeholder="Search For Anything"
+                aria-label="Search"
+              />
+            </form>
+            <div class="menu-area">
+              <ul class="menu-item navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Arniam Busyness</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tech on Arniam</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                    ><i class="fas fa-cart-plus"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="btn btn-outline-dark rounded-0 header-button"
+                    href="/login.html"
+                    >Login</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="btn btn-dark rounded-0 header-button" href="#"
+                    >Sign up</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="btn btn-outline-dark rounded-0 header-button"
+                    href="#"
+                    ><i class="fas fa-globe"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- header section areaFinish  -->
+
+      <!-- main content area -->
+      <div class="main-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <p>home > course > details</p>
+              <h2>Introduction to NGINX</h2>
+              <p>
+                Understand and Deploy Layer 4/Layer 7 Load Balancing, HTTPS,
+                HTTP/2, TLS 1.3 and Scale WebSockets with NGINX
+              </p>
+              <p>Created by <a href="">Istiaq Hasan</a></p>
+              <div class="statusArea">
+                <p>
+                  <i class="icon fas fa-exclamation-circle"></i> Last updated
+                  10/2021
+                </p>
+                <p><i class="icon fas fa-globe"></i> English</p>
+                <p><i class="icon fab fa-cuttlefish"></i> Bangla Audio</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-12 main-content-right">
+              <div class="card course-card rounded-0">
+                <img
+                  class="card-img-top"
+                  id="courseImage"
+                  src="https://www.freecodecamp.org/news/content/images/size/w2000/2021/06/javascriptfull.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <div>
+                    <h3 class="card-title">$84.99</h3>
+                    <button class="btn btn-info w-100">Add to Cart</button>
+                    <button class="btn btn-outline-dark w-100 my-2">
+                      Buy now
+                    </button>
+                    <pre class="text-center">30-Day Money-Back Guarantee</pre>
+                  </div>
+                  <div>
+                    <h6>This course includes:</h6>
+                    <p>
+                      <i class="far fa-file-video"></i> 4 hours on-demand video
+                    </p>
+                    <p>
+                      <i class="fas fa-download"></i> 14 downloadable resources
+                    </p>
+                    <p>
+                      <i class="fas fa-hourglass-start"></i> Full lifetime
+                      access
+                    </p>
+                    <p>
+                      <i class="fas fa-mobile-alt"></i> Access on mobile and TV
+                    </p>
+                    <p>
+                      <i class="fas fa-medal"></i> Certificate of completion
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- main content area finish -->
+      </div>
+      <div class="container">
+        <div class="card col-md-8 learn-info rounded-0">
+          <h3>What you'll learn</h3>
+          <div>
+            <ul>
+              <li>
+                <i class="fas fa-check"></i> Layer 7 Load Balancing between
+                services
+              </li>
+              <li><i class="fas fa-check"></i> Setup NGINX as a Web Server</li>
+              <li>
+                <i class="fas fa-check"></i> Block Undesired Requests and
+                Re-route requests to different services
+              </li>
+              <li><i class="fas fa-check"></i> Enable HTTP/2 with NGINX</li>
+              <li><i class="fas fa-check"></i> NGINX Timeouts</li>
+              <li>
+                <i class="fas fa-check"></i> Load Balancing WebSockets with
+                NGINX
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Build an army of powerful Machine
+                Learning models and know how to combine them to solve any
+                problem
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Know which Machine Learning model
+                to choose for each type of problem
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <h3>Requirements</h3>
+          <ul>
+            <li>Basic understanding of networking and coding</li>
+            <li>Any computer (Windows, Mac or Linux)</li>
+          </ul>
+        </div>
+        <div class="col-md-8">
+          <h2>Description</h2>
+          <p>
+            NGINX is an open-source web server written in C and can also be used
+            as a reverse proxy and a load balancer. This class Is an
+            introduction to NGINX, by the end of this class you will be able to
+            understand the fundamentals of NGINX and spin up your own instance
+            and even secure it with a legitimate certificate.
+          </p>
+          <p>Here are the topics that I will discuss:</p>
+          <ul>
+            <li>What is NGINX?</li>
+            <li>NGINX Use Cases</li>
+            <li>Layer 4 and Layer 7 Proxying in Nginx</li>
+            <li>NGINX Timoouts</li>
+            <li>Example</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container">
+        <div class="col-md-8 my-5">
+          <h3>Course content</h3>
+          <p>5 sections • 35 lectures • 3h 49m total length</p>
+          <div class="card rounded-0">
+            <div class="course-title">
+              <span style="display: flex">
+                <i class="fas fa-chevron-down" id="downArrow"></i>
+                <i class="fas fa-chevron-up" id="upArrow"></i>&nbsp; &nbsp;
+                Welcome to the course! Here we will help you get started in the
+                best conditions</span
+              >
+            </div>
+            <div class="course-body">
+              <ul>
+                <li class="course-video-list">
+                  <span>Application of Machine learning</span>
+                  <i class="fas fa-chevron-right"></i>
+                </li>
+                <li class="course-video-list">
+                  <span>Application of Machine learning</span>
+                  <i class="fas fa-chevron-right"></i>
+                </li>
+                <li class="course-video-list">
+                  <span>Application of Machine learning</span>
+                  <i class="fas fa-chevron-right"></i>
+                </li>
+                <li class="course-video-list">
+                  <span>Application of Machine learning</span>
+                  <i class="fas fa-chevron-right"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

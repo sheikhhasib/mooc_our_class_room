@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+.logo {
+  height: 60px;
+}
+.search {
+  border-radius: 5px;
+  padding: 10px;
+}
+.menu-area {
+  width: 100%;
+}
+.menu-item {
+  display: flex;
+  justify-content: end;
+  float: right;
+}
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.header-button {
+  margin-left: 10px;
+}
+.statusArea {
+  display: flex;
+}
+.statusArea p {
+  margin-right: 10px;
+}
+.main-content {
+  background-color: black;
+  color: #fff;
+  padding: 30px 0;
+}
+.learn-info {
+  padding: 20px 10px;
+  margin: 30px 0;
+}
+.learn-info ul li {
+  list-style: none;
+  padding-left: 0;
+}
+ul li {
+  list-style: none;
+}
+
+.main-content-right {
+  position: absolute;
+  right: 0;
+  z-index: 10;
+  color: black;
+}
+
+.course-card {
+  width: 21rem;
+}
+
+.course-title {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d3d3d3;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 1px solid gray;
+}
+.course-video-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 0 0;
+}
+.course-body {
+  display: none;
+}
+#upArrow {
+  display: none;
+}
+#downArrow {
+  display: block;
+}
+/* login page css  */
+.login-area {
+  margin: auto;
+  margin-top: 100px;
+}
+.login-area h4 {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 20px;
+}
+.login-form {
+  width: 80%;
+  margin: auto;
+}
+/* login page css finish */
+
+@media only screen and (max-width: 1024px) {
+  .menu-item {
+    float: left;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .menu-area {
+    padding-left: 20px;
+  }
+  .menu-item {
+    float: left;
+  }
+  .header-button {
+    margin: 5px 0;
+  }
+  .main-content-right {
+    position: relative !important;
+    transition: 0s !important;
+    top: 0 !important;
+  }
+  #courseImage {
+    display: block !important;
+  }
+  .course-card {
+    width: 100%;
+  }
+}
