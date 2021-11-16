@@ -28,6 +28,13 @@ body {
   padding-top: 0;
   padding-bottom: 0;
 }
+.nav-hidden-area {
+  display: block !important;
+}
+
+.bar-icon {
+  display: none;
+}
 .header-button {
   margin-left: 10px;
 }
@@ -194,6 +201,11 @@ ul li {
   .menu-area {
     padding-left: 20px;
   }
+  .bar-icon {
+    display: block;
+    padding-left: 5px;
+    font-size: 20px;
+  }
   .menu-item {
     float: left;
   }
@@ -210,5 +222,40 @@ ul li {
   }
   .course-card {
     width: 100%;
+  }
+  .course-area h2 {
+    font-size: 25px;
+  }
+  .course-area h4 {
+    font-size: 23px;
+    margin: 20px 0;
+  }
+  .head-border-line {
+    font-size: 20px;
+  }
+  .nav-hidden-area {
+    position: fixed;
+    display: block !important;
+    left: -100%;
+    top: 70px;
+    padding-top: 20px;
+    z-index: 99;
+    background-color: #fff;
+    -webkit-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    -moz-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    transition: all 1.5s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+  }
+  .navbar-collapse-new {
+    display: block !important;
+    position: fixed;
+    left: 0px;
+    width: 100%;
+    top: 70px;
+    padding-top: 20px;
+    background-color: #fff;
+    -webkit-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    -moz-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    overflow: auto;
   }
 }

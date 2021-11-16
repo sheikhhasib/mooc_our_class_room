@@ -11,6 +11,16 @@ $(document).ready(function () {
             $('#downArrow').css('display','block');
        }
 	});
+    $(document).on("click", ".bar-icon", function () {
+        let status = $('.nav-hidden-area').css('display');
+        if(status == 'block'){
+            $('#menuBar').addClass('navbar-collapse-new');
+            $('#menuBar').removeClass('nav-hidden-area');
+        }else{
+            $('#menuBar').removeClass('navbar-collapse-new');
+            $('#menuBar').addClass('nav-hidden-area');
+        }       
+	});
 
 
     // Navbar Scroll function
@@ -19,14 +29,12 @@ $(document).ready(function () {
         $(document).scroll(function() { 
             scroll_pos = $(this).scrollTop();
             if(scroll_pos > 200) {
-                $('#courseImage').css('display','none');
                 $('.main-content-right').css('top','80px');
                 $('.main-content-right').css('position','fixed');
                 $('.main-content-right').css('transition','0.5s');
                 $('.main-navbar').css('background-color','#f3f2f2');
 
             } else {
-                $('#courseImage').css('display','block');
                 $('.main-content-right').css('top','100px');
                 $('.main-content-right').css('transition','0.5s');
                 $('.main-navbar').css('background-color','#fff');
