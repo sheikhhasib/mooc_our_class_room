@@ -106,6 +106,10 @@ ul li {
 /* login page css finish */
 
 /* course list start  */
+.course-area {
+  margin: 70px auto;
+  padding: 30px 0;
+}
 .section-header {
   width: 100%;
   border-bottom: 1px solid hsla(0, 0%, 50.2%, 0.3607843137254902);
