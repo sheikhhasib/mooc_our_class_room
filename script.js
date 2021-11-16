@@ -20,13 +20,16 @@ $(document).ready(function () {
             scroll_pos = $(this).scrollTop();
             if(scroll_pos > 200) {
                 $('#courseImage').css('display','none');
-                $('.main-content-right').css('top','30px');
+                $('.main-content-right').css('top','80px');
                 $('.main-content-right').css('position','fixed');
                 $('.main-content-right').css('transition','0.5s');
+                $('.main-navbar').css('background-color','#f3f2f2');
+
             } else {
                 $('#courseImage').css('display','block');
                 $('.main-content-right').css('top','100px');
                 $('.main-content-right').css('transition','0.5s');
+                $('.main-navbar').css('background-color','#fff');
             }
         });
     });

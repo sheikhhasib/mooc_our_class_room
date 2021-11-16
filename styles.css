@@ -2,6 +2,13 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+.main-navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #fff;
+  z-index: 99;
+}
 .logo {
   height: 60px;
 }
@@ -34,6 +41,7 @@ body {
   background-color: black;
   color: #fff;
   padding: 30px 0;
+  margin-top: 70px;
 }
 .learn-info {
   padding: 20px 10px;
@@ -96,6 +104,82 @@ ul li {
   margin: auto;
 }
 /* login page css finish */
+
+/* course list start  */
+.section-header {
+  width: 100%;
+  border-bottom: 1px solid hsla(0, 0%, 50.2%, 0.3607843137254902);
+  margin: auto auto 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head-border-line {
+  font-size: 25px;
+  text-transform: capitalize;
+  font-weight: 600;
+  display: inline-block;
+  padding-right: 10px;
+  position: relative;
+  color: #313131;
+  /* padding-bottom: 10px; */
+}
+/* .head-border-line:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 100%;
+  background-color: green;
+} */
+.course-area h4 {
+  font-weight: 600;
+  font-size: 30px;
+}
+.course-area h2 {
+  font-weight: 600;
+  font-size: 35px;
+}
+.badge-warning {
+  background-color: #eceb98;
+  padding: 5px;
+}
+.course-card-title {
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02rem;
+  font-size: 18px;
+}
+.course-owner-name {
+  color: #6a6f73;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+}
+.course-card-area {
+  padding: 0 20px;
+}
+.course-card-area .card {
+  border: none !important;
+}
+
+.popular-topics {
+  margin: 50px 0;
+}
+.popular-topics-card {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid lightgray;
+  margin-top: 20px;
+  cursor: pointer;
+  transform: 5s;
+}
+.popular-topics-card:hover {
+  background-image: linear-gradient(rgb(235, 234, 234), #fff);
+  transform: 5s;
+}
 
 @media only screen and (max-width: 1024px) {
   .menu-item {
