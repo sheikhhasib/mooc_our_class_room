@@ -61,6 +61,9 @@ body {
 ul li {
   list-style: none;
 }
+.menu-mobile {
+  display: none;
+}
 
 .main-content-right {
   position: absolute;
@@ -197,9 +200,23 @@ ul li {
     float: left;
   }
 }
+
 @media only screen and (max-width: 600px) {
   .menu-area {
     padding-left: 20px;
+  }
+  .menu-mobile {
+    display: block;
+    margin-top: 100px;
+    position: absolute;
+    bottom: 0px;
+    padding: 5px 14px;
+    background-color: #fff;
+    border-top: 1px solid lightgray;
+    padding-bottom: 40px;
+  }
+  .menu-mobile a {
+    margin-left: 20px;
   }
   .bar-icon {
     display: block;
@@ -236,6 +253,7 @@ ul li {
   .nav-hidden-area {
     position: fixed;
     display: block !important;
+    height: 95vh;
     left: -100%;
     top: 70px;
     padding-top: 20px;
@@ -248,6 +266,7 @@ ul li {
   .navbar-collapse-new {
     display: block !important;
     position: fixed;
+    height: 95vh;
     left: 0px;
     width: 100%;
     top: 70px;
@@ -257,5 +276,23 @@ ul li {
     -moz-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
     transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
     overflow: auto;
+  }
+  .world-icon-btn {
+    display: none;
+  }
+  .sign-up-btn {
+    display: none;
+  }
+  .login-btn {
+    display: none;
+  }
+  .cart-icon-area {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .menu-mobile a {
+    margin-left: 10px;
   }
 }
