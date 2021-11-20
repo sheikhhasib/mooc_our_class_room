@@ -26,57 +26,115 @@
   <body>
     <div class="col-md-12">
       <!-- header section area -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light main-navbar">
+      <nav class="navbar navbar-expand-lg navbar-light main-navbar">
         <div class="container-fluid">
           <div class="bar-icon">
             <span class="navbar-toggler-icon"></span>
           </div>
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/">
             <img class="logo" src="./assets/images/logo.png" alt="" />
           </a>
-          <div class="collapse navbar-collapse nav-hidden-area" id="menuBar">
-            <form class="d-flex col-md-6 col-11 m-auto">
-              <input
-                class="form-control me-2 search"
-                type="search"
-                placeholder="Search For Anything"
-                aria-label="Search"
-              />
-            </form>
-            <div class="menu-area">
-              <ul class="menu-item navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Arniam Busyness</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Tech on Arniam</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"
-                    ><i class="fas fa-cart-plus"></i
-                  ></a>
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="btn btn-outline-dark rounded-0 header-button"
-                    href="/mooc_our_class_room/login.html"
-                    >Login</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="btn btn-dark rounded-0 header-button" href="#"
-                    >Sign up</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="btn btn-outline-dark rounded-0 header-button"
-                    href="/mooc_our_class_room/courseList.html"
-                    ><i class="fas fa-globe"></i
-                  ></a>
-                </li>
-              </ul>
+          <div class="nav-hidden-area" id="menuBar">
+            <div class="collapse navbar-collapse menu-area-without-overlay">
+              <form class="d-flex col-md-6 col-11 m-auto">
+                <input
+                  class="form-control me-2 search"
+                  type="search"
+                  placeholder="Search For Anything"
+                  aria-label="Search"
+                />
+              </form>
+              <div class="menu-area">
+                <ul class="menu-item navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Arniam Busyness</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Tech on Arniam</a>
+                  </li>
+                  <li class="nav-item cart-icon-area">
+                    <a class="nav-link" href="#"
+                      ><i class="fas fa-cart-plus"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item login-btn">
+                    <a
+                      class="btn btn-outline-dark rounded-0 header-button"
+                      href="/login.html"
+                      >Login</a
+                    >
+                  </li>
+                  <li class="nav-item sign-up-btn">
+                    <a
+                      class="btn btn-dark rounded-0 header-button"
+                      href="/mooc_our_class_room/login.html"
+                      >Sign up</a
+                    >
+                  </li>
+                  <li class="nav-item world-icon-btn">
+                    <a
+                      class="btn btn-outline-dark rounded-0 header-button"
+                      href="/mooc_our_class_room/courseList.html"
+                      ><i class="fas fa-globe"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="for-mobile-menu">
+                <p>Most popular</p>
+                <ul>
+                  <li>
+                    <span>Web Development</span>
+                    <i class="fas fa-angle-right"></i>
+                  </li>
+                  <li>
+                    <span>Web Development</span>
+                    <i class="fas fa-angle-right"></i>
+                  </li>
+                  <li>
+                    <span>Game Development</span>
+                    <i class="fas fa-angle-right"></i>
+                  </li>
+                  <li>
+                    <span>Entrepreneurship</span>
+                    <i class="fas fa-angle-right"></i>
+                  </li>
+                  <li>
+                    <span>Digital Marketing</span>
+                    <i class="fas fa-angle-right"></i>
+                  </li>
+                  <li>
+                    <span>IT Certification</span>
+                    <i class="fas fa-angle-right"></i>
+                  </li>
+                  <li>
+                    <span>All categories</span>
+                    <i class="fas fa-angle-right"></i>
+                  </li>
+                </ul>
+              </div>
+              <div class="menu-mobile col-12">
+                <a class="btn btn-sm" href="#"
+                  ><i class="fas fa-cart-plus"></i
+                ></a>
+                <a
+                  class="btn btn-outline-dark rounded-0 header-button"
+                  href="/mooc_our_class_room/login.html"
+                  >Login</a
+                >
+                <a
+                  class="btn btn-dark rounded-0 header-button"
+                  href="/mooc_our_class_room/login.html"
+                  >Sign up</a
+                >
+                <a
+                  class="btn btn-outline-dark rounded-0 header-button"
+                  href="/mooc_our_class_room/courseList.html"
+                  ><i class="fas fa-globe"></i
+                ></a>
+              </div>
             </div>
+            <div class="for-mobile-menu-right-blank-area"></div>
           </div>
         </div>
       </nav>
